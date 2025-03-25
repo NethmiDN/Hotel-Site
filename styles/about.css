@@ -1,0 +1,57 @@
+.about {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    word-spacing: 3px;
+}
+
+.immerse {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-top: 45px;
+}
+
+.most-jumeirah {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: normal;
+    padding-left: 100px;
+}
+
+#About {
+    background-image: url("/assets/images/about-bg.jpg") ;
+    height: 200vh;
+    object-fit: cover;
+}
+
+#bride {
+    width: 400px;
+    height: 600px;
+    object-fit: fill;
+    margin-top: -400px;
+    margin-right: 150px;
+}
+
+#bar {
+    width: 780px;
+    height: 600px;
+    object-fit: fill;
+    margin-left: 100px;
+}
+
+.services {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 3px; 
+    padding-top: 250px;
+    margin-left: 900px;
+    margin-top: 50px;
+} 
