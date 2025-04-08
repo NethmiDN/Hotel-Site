@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 5px;
+}
+
+#drop1:hover , #drop2:hover , #drop3:hover , #drop4:hover , #drop5:hover {
+    color: #110857;
+}
+
+.book-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 10px;
+    margin-left: 10PX;
+}
+
+.book-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.footer-address {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.footer-contact {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+.footer-email {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-email:hover {
+    color: #b3a995;
+}
+.footer-links {
+    margin: 30px 0;
+}
+.footer-links-column {
+    margin-bottom: 20px;
+}
+.footer-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+.footer-link:hover {
+    color: #b3a995;
+}
+.footer-divider {
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+.footer-copyright {
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: center;
+}
+
+.about {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    word-spacing: 3px;
+}
+
+.immerse {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 100px;
+    padding-top: 45px;
+}
+
+.most-jumeirah {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: normal;
+    padding-left: 100px;
+}
+
+#About {
+    background-image: url("/assets/images/about-bg.jpg") ;
+    height: 200vh;
+    object-fit: cover;
+}
+
+#bride {
+    width: 400px;
+    height: 600px;
+    object-fit: fill;
+    margin-top: -400px;
+    margin-right: 150px;
+}
+
+#bar {
+    width: 780px;
+    height: 600px;
+    object-fit: fill;
+    margin-left: 100px;
+}
+
+.services {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 3px; 
+    padding-top: 250px;
+    margin-left: 900px;
+    margin-top: 50px;
+} 
