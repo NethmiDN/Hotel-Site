@@ -8,7 +8,7 @@ body {
     padding-top: 5px;
 }
 
-#drop1:hover , #drop2:hover , #drop3:hover , #drop4:hover , #drop5:hover {
+#drop1:hover, #drop2:hover, #drop3:hover, #drop4:hover, #drop5:hover {
     color: #110857;
 }
 
@@ -21,7 +21,7 @@ body {
     display: inline-block;
     transition: background-color 0.5s ease-in-out;
     border-radius: 10px;
-    margin-left: 10PX;
+    margin-left: 10px;
 }
 
 .book-btn:hover {
@@ -35,6 +35,7 @@ footer {
     padding: 50px 0 20px;
     margin-top: 50px;
 }
+
 .footer-title {
     font-size: 1.5rem;
     font-weight: 300;
@@ -42,28 +43,31 @@ footer {
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-.footer-address {
+
+.footer-address,
+.footer-contact {
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 20px;
 }
-.footer-contact {
-    font-size: 0.9rem;
-    margin-bottom: 5px;
-}
+
 .footer-email {
     color: #fff;
     text-decoration: none;
 }
+
 .footer-email:hover {
     color: #b3a995;
 }
+
 .footer-links {
     margin: 30px 0;
 }
+
 .footer-links-column {
     margin-bottom: 20px;
 }
+
 .footer-link {
     display: block;
     color: #fff;
@@ -71,13 +75,16 @@ footer {
     margin-bottom: 8px;
     font-size: 0.9rem;
 }
+
 .footer-link:hover {
     color: #b3a995;
 }
+
 .footer-divider {
     border-top: 1px solid #444;
     margin: 20px 0;
 }
+
 .footer-copyright {
     font-size: 0.8rem;
     color: #aaa;
@@ -111,23 +118,25 @@ footer {
 }
 
 #About {
-    background-image: url("/assets/images/about-bg.jpg") ;
-    height: 200vh;
-    object-fit: cover;
+    background-image: url("/assets/images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 60px 0;
 }
 
 #bride {
     width: 400px;
     height: 600px;
-    object-fit: fill;
+    object-fit: cover;
     margin-top: -400px;
     margin-right: 150px;
 }
 
 #bar {
     width: 780px;
-    height: 600px;
-    object-fit: fill;
+    height: auto;
+    object-fit: cover;
     margin-left: 100px;
 }
 
@@ -136,8 +145,109 @@ footer {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
-    word-spacing: 3px; 
+    word-spacing: 3px;
     padding-top: 250px;
     margin-left: 900px;
     margin-top: 50px;
-} 
+}
+
+/* =====================
+   RESPONSIVE STYLES
+===================== */
+
+/* Tablets (768px and up) */
+@media (max-width: 991px) {
+    .about,
+    .immerse,
+    .most-jumeirah {
+        padding-left: 40px;
+        text-align: left;
+    }
+
+    #bride,
+    #bar {
+        width: 100%;
+        height: auto;
+        margin: 30px 0;
+    }
+
+    .services {
+        margin-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        margin-left: 0 !important;
+    }
+}
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    .about {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .immerse {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .most-jumeirah {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+
+    #bride,
+    #bar {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .services {
+        font-size: 16px;
+        padding-top: 30px;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 14px;
+    }
+
+    .book-btn {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-links-column {
+        margin-bottom: 20px;
+    }
+
+    .footer-title,
+    .footer-address,
+    .footer-contact,
+    .footer-email,
+    .footer-link {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .book-btn {
+        font-size: 16px;
+    }
+}
