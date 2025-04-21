@@ -327,7 +327,7 @@ footer {
   }
   
   /* Remove hardcoded left offset from second video */
-  .col-md-4:nth-child(2) .ratio {
+  .col-md-2:nth-child(2) .ratio {
     left: 0 !important;
   }
   
